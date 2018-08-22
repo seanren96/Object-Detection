@@ -16,4 +16,4 @@ ap.add_argument("-c", "--confidence", type=float, default=0.2,
 	help="minimum probability to filter weak detections")
 args = vars(ap.parse_args())
     image = cv2.imread("000001.jpg")
-cv2.destroyAllWindows()
+cv2.destroyAllWindows():
